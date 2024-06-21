@@ -1,7 +1,7 @@
 import { defineConfig } from '@adonisjs/cors';
 const corsConfig = defineConfig({
     enabled: true,
-    origin: '*',
+    origin: ['gsfind.ru'],
     methods: ['GET', 'HEAD', 'POST', 'PUT', 'DELETE'],
     headers: ['Content-Type', 'Authorization'],
     exposeHeaders: [],
